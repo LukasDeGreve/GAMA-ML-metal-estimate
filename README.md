@@ -7,3 +7,5 @@ Machine learning techniques were applied on the GAMA dataset to estimate the met
 Dataprocessing.py, machine_learning.py and Plots.py contain the function needed for main.py and GAMA relations.py. GAMA relations.py reproduces all plots and some extras seen in chapter 3 of the thesis. Main.py is the metallicity estimator and is used to create the plots in chapter 4.
 
 Additional downloads of the GAMA DR3 data are required. They can be found here: http://www.gama-survey.org/dr3/schema/. The main program requires the GaussFitSimple, GaussFitComplex, StellarMassesLambdar and LambdarCat DMU's, GAMA relations.py additionally requires the MagPhys DMU. These databases need to be either downloaded as or converted to a csv file. Conversion from .fits to csv can be done by for example the TOPCAT program, or a python script using the pandas library.
+
+I have no idea how copyright works, so please cite my thesis and/or refer to this github page if you use or modify this code in further research
